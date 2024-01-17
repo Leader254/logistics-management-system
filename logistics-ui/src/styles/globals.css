@@ -49,13 +49,6 @@ body {
   font-size: 1.2rem;
   list-style: none;
 }
-.hero-section{
-  background-image: url('../../public/assets/logistics-import-export.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  opacity: 0.8; 
-}
 @keyframes zoomHeartbeat {
   0%, 100% {
     transform: scale(1);

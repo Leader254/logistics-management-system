@@ -1,12 +1,18 @@
-"use client";
 import { Button } from "primereact/button";
+import Image from 'next/image';
 
 function Hero() {
   return (
-    <div className="hero-section p-col-12 flex align-items-center" style={{ height: '100vh' }}>
-      <div className="ml-7">
+    <div className="hero-section p-col-12 flex align-items-center relative" style={{ height: '100vh', position: 'relative' }}>
+      <Image
+        src="/assets/logistics-import-export.jpg"
+        alt="Logistics Import Export"
+        layout="fill"
+        objectFit="cover"
+      />
+      <div className="ml-7 absolute top-1/4 left-0 text-white">
         <h5>Logistics Solutions</h5>
-        <h1 className="text-white text-7xl">
+        <h1 className="text-7xl">
           Seamless Solutions
           <br />
           for Your <span style={{ color: "#EBFF00" }}>Supply Chain</span>
